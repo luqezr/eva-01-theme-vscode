@@ -1,0 +1,29 @@
+{
+  "name": "eva-01-theme",
+  "displayName": "EVA-01 Theme",
+  "description": "Evangelion EVA UNIT-01 inspired theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "publisher" : "kvx",
+  "author": {
+    "name": "kvx"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/luqezr/",
+  "keywords": ["eva-01", "evangelion", "theme", "dark", "color theme", "vscode theme"],
+  "icon": "icon.ico",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "EVA-01",
+        "uiTheme": "vs-dark",
+        "path": "./themes/EVA-01-color-theme.json"
+      }
+    ]
+  }
+}
